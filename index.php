@@ -6,9 +6,8 @@
 
 // Esercizio 3: Concatenare il tuo nome e cognome in una singola variabile e stamparla.
 
+$nome = "Mario";
+$cognome = "Rossi";
+$nome_intero = $nome  . $cognome;
 
-$anno_corrente = 2025;
-$eta = 25;
-$anno_nascita = $anno_corrente - $eta;
-
-echo $anno_nascita;
+echo $nome_intero;
