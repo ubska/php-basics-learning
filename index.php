@@ -6,5 +6,9 @@
 
 // Esercizio 3: Concatenare il tuo nome e cognome in una singola variabile e stamparla.
 
-$citta = "Roma";
-echo "Vivo a " . $citta;
+
+$anno_corrente = 2025;
+$eta = 25;
+$anno_nascita = $anno_corrente - $eta;
+
+echo $anno_nascita;
