@@ -1,10 +1,13 @@
 <?php
-// Esercizio 6: Calcolare lo sconto su un prodotto
-// Obiettivo: Supponiamo di avere un prodotto che costa 100€ e di applicare uno sconto del 20%. Calcolare il prezzo finale dopo lo sconto.
+// Esercizio 1: Verifica se un numero è maggiore o uguale a 10
 
-$prezzo_iniziale = 100;
-$sconto = 20;
-$importo_sconto = ($prezzo_iniziale * $sconto) / 100;
-$prezzo_finale = $prezzo_iniziale - $importo_sconto;
+$a = 10;
+$b = 20;
 
-echo "Il prezzo finale dopo lo sconto è: " . $prezzo_finale . "£";
+echo $b;
+
+if ($b >= $a) {
+    echo "il numero è maggiore di 10";
+} else {
+    echo "il numero è minore di 10";
+};
