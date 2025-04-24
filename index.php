@@ -1,8 +1,10 @@
 <?php
-$name = "Mario"; //stringa
-$age = 25; //intero
-$price = 19.99; //float
-$isActive = true; // booleano
 
-// La concatenazione di stringhe in PHP viene fatta con l'operatore .
-echo "Ciao " . $name; // ciao Mario
+// Esercizio 1: Crea una variabile $città e assegna il nome di una città. Stampa un messaggio che dice "Vivo a [nome della città]".
+
+// Esercizio 2: Crea una variabile $anno_nascita e calcola l'età di una persona (supponendo che l'anno corrente sia 2025).
+
+// Esercizio 3: Concatenare il tuo nome e cognome in una singola variabile e stamparla.
+
+$citta = "Roma";
+echo "Vivo a " . $citta;
